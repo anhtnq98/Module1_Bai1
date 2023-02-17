@@ -1,0 +1,42 @@
+.all {
+    background-color: lightgoldenrodyellow;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.cv_header {
+    display: flex; 
+    justify-content: space-around;
+    text-align: center; 
+    height: 310px;
+    margin: 5px; 
+    padding: 10px;
+    border: yellow solid 2px;
+    background-image: url(./img/bg-color.jpg);
+}
+
+.avatar {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv_body {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 760px;
+}
+
+.small_cv_body {
+    display: flex;
+    align-items: center;
+}
+.study {
+    margin-left: 20px;
+}
+
+.h3 {
+    color: orange;
+}

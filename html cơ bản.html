@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 3 cách để thêm css vào trang web
+    Cách 1: inline: chèn thẳng vào trong css
+    Cách 2: internal: thêm style vào trong html
+    cách 3: external: thêm style qua tạo một trang css riêng
+
+    thẻ định danh: class và id -->
+
+    <!-- Muốn thêm css vào trong html thì bấm li, chọn link:css, thường đặt css
+    ở dưới title -->
+
+<!-- li*5 có nghĩa là tạo 5 dòng <li></li> -->
+
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -37,6 +50,34 @@
     </pre>
     <hr>
     <a href="google.com" title="Đường dẫn link trang web khác">Google</a>
+
+    <div class="parent">
+        <div class="children1"></div>
+        <div class="children2"></div>
+        <div class="children3"></div>
+    </div>
+
 </body>
+
+<style>
+
+    .parent {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+<!-- reset css -->
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+
+</style>
+
+
 
 </html>
