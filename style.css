@@ -1,4 +1,4 @@
-.all {
+body {
     background-color: lightgoldenrodyellow;
     padding-left: 100px;
     padding-right: 100px;
@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.cv_body {
+article {
     display: flex;
     justify-content: space-between;
     padding: 40px;
