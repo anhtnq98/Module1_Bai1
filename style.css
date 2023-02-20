@@ -6,20 +6,56 @@ body {
 }
 
 .cv_header {
-    display: flex; 
+    display: flex;
     justify-content: space-around;
-    text-align: center; 
+    text-align: center;
     height: 310px;
-    margin: 5px; 
+    margin: 5px;
     padding: 10px;
     border: yellow solid 2px;
     background-image: url(./img/bg-color.jpg);
 }
 
-.avatar {   
+.avatar {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav {
+    background-image: url(./img/nav-color.jpg);
+    border: yellow solid 2px;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: initial;
+    padding-top: 0px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    /* loại bỏ dấu chấm trong li */
+}
+
+.small_nav {
+    text-align: center;
+    font-size: medium;
+    margin-right: 5px;
+    padding-top: 5px;
+    width: 150px;
+    height: 25px;
+    border: rgba(247, 200, 130, 0.951) dashed 5px;
+    border-radius: 30px;
+    background-color: wheat;
+
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    
 }
 
 article {
@@ -33,9 +69,11 @@ article {
     display: flex;
     align-items: center;
 }
+
 .study {
     margin-left: 20px;
 }
+
 .year1 {
     border-right: orange double 3px;
 }
