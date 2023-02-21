@@ -5,28 +5,30 @@ body {
     padding-top: 20px;
 }
 
-.cv_header {
+.header {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    height: 310px;
     margin: 5px;
     padding: 10px;
     border: yellow solid 2px;
     background-image: url(./img/bg-color.jpg);
 }
 
-.avatar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.descrip {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: orangered;
+    font-weight: bolder;
 }
 
 nav {
     background-image: url(./img/nav-color.jpg);
     border: yellow solid 2px;
     border-radius: 30px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: initial;
     padding-top: 0px;
 }
@@ -55,26 +57,8 @@ a {
     color: orangered;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
-article {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 760px;
-}
 
-.small_cv_body {
-    display: flex;
-    align-items: center;
-}
-
-.study {
-    margin-left: 20px;
-}
-
-.year1 {
-    border-right: orange double 3px;
-}
 
