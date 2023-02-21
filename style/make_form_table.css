@@ -19,12 +19,43 @@
     background-color: white;
 }
 
-td, th {
-    border: 1px solid #dddddd;
+.td1,
+.th1 {
+    border: 1px solid black;
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {
+.tr1:nth-child(even) {
     background-color: #dddddd;
+}
+
+.table2 {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.th2,
+.td2 {
+    padding: 20px;
+}
+
+.th2 {
+    font-family: 'Tahoma';
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px 10px;
+    background: crimson;
+    color: white;
+}
+
+.td2 {
+    font-family: 'Tahoma';
+    font-weight: 400;
+    font-size: 13px;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    text-align: center;
 }
