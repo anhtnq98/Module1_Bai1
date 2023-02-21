@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B3 - Tạo Form Và Bảng (2)</title>
+    <link rel="stylesheet" href="./style/all_style.css.css">
+    <link rel="stylesheet" href="./style/make_form_table2.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <h1>Thực hành tạo form và bảng</h1>
+        </div>
+    </header>
+
+    <p class="descrip">⇓ Bài thực hành [01] ~ [??] ⇓</p>
+
+    <nav>
+        <ul class="nav">
+            <li class="small_nav"><a href="./index.html">Thực hành 1 + 2</a></li>
+            <li class="small_nav"><a href="./make_form_table.html">Thực hành 3[1]</a></li>
+            <li class="small_nav"><a href="#">Thực hành 3[2]</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bước 1: Tạo file html đặt tên simpleform.html
+                  Bước 2: Thêm thẻ <form> vào. -->
+
+    <p style="text-align: center;">***</p>
+    <h2 style="text-align: center; color: red;">===== BÀI TẬP THẦY GIAO TRÊN LỚP =====</h2>
+    <p style="text-align: center;">***</p>
+
+    <div>
+        <h2 style="text-align: center; color: orangered;">[Thực hành] 1. Tạo form theo hình bên dưới</h2>
+        <img style="text-align: center;" src="./img/TH03/bt1.jpg" alt="bt1" width="900px">
+        <h2 style="text-align: center; color: orangered;">Kết quả:</h2>
+        <div style="display: flex; justify-content: center;">
+            <div class="tab1">
+                <table>
+
+                    <p style="text-align: right;">*denotes a required field</p>
+
+                    <tr>
+                        <td class="title">First name</td>
+                        <td><input class="outline" type="text" name="firstname" required><span>*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="title">Last name</td>
+                        <td><input class="outline" type="text" name="lastname" required><span>*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="title">Father Name</td>
+                        <td><input class="outline" type="text" name="fathername"></td>
+                    </tr>
+                    <tr>
+                        <td class="title">Date of birth</td>
+                        <td><input style="height: 30px; width: 203px;" type="date" name="birthday"
+                                required><span>*</span>
+                        </td>
+                    </tr>
+                    <trx>
+                        <td class="title">Tel</td>
+                        <td><input class="outline" type="tel" name="tel" required><span>*</span></td>
+                    </trx>
+                    <tr>
+                        <td class="title">High School Name</td>
+                        <td><input class="outline" type="text" name="hsn" required><span>*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="title">Permanent Address</td>
+                        <td><input class="outline" type="text" name="address" required><span>*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="title">Your Level</td>
+                        <td>
+                            <select style="height: 30px; width: 207px;" name="" id="">
+                                <option value="1st">1st Year</option>
+                                <option value="2nd">2nd Year</option>
+                                <option value="3rd">3rd Year</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="title">Email</td>
+                        <td><input class="outline" type="email" name="email" required><span>*</span></td>
+                    </tr>
+                    <tr>
+                        <td class="title">Degree Program</td>
+                        <td>
+                            <select style="height: 30px; width: 207px;" name="" id="">
+                                <option value="physics">BS in Pre-Med Physics</option>
+                                <option value="no2">No.2</option>
+                                <option value="no3">No.3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><input style="height: 30px;" type="submit" name="submit" value="Register"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <p style="text-align: center;">***</p>
+        <h2 style="text-align: center; color: orangered;">[Thực hành] 2. Cũng tạo form theo hình bên dưới</h2>
+        <img style="text-align: center;" src="./img/TH03/bt2.jpg" width="900px">
+        <h2 style="text-align: center; color: orangered;">Kết quả:</h2>
+        <div style="display: flex; justify-content: center; background-color: white;">
+            <div>
+                <h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif ;">TỜ KHAI Y TẾ ĐỐI VỚI
+                    NGƯỜI</h4>
+                <h6 style="font-size:xx-small; text-align:center">ĐÂY LÀ TÀI LIỆU QUAN TRỌNG, THÔNG TIN CỦA ANH/CHỊ SẼ
+                    GIÚP CƠ QUAN Y TẾ LIÊN LẠC KHI CẦN THIẾT ĐỂ
+                    PHÒNG CHỐNG DỊCH BỆNH TRUYỀN NHIỄM</h6>
+                <h6 style="font-size:xx-small; color: red; text-align:center">KHUYẾN CÁO: KHAI BÁO THÔNG TIN SAI LÀ VI
+                    PHẠM PHÁP LUẬT VIỆT NAM VÀ CÓ THỂ XỬ LÝ HÌNH SỰ</h6>
+                <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="tr2">Cửa khẩu <span class="sao">(*)</span></td>
+                                <td>
+                                    <select class="box2" name="" id="" required>
+                                        <option value="">Chọn</option>
+                                        <option value="">Trung Quốc</option>
+                                        <option value="">Lào</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tr2">Họ tên(ghi chữ IN HOA) <span class="sao">(*)</span></td>
+                                <td>
+                                    <input style="height: 15px; width: 140px;" type="text" name="hoten" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tr2">Năm sinh <span class="sao">(*)</span></td>
+                                <td style="width: 50px;">
+                                    <select style="text-align: center; font-size: xx-small; width: 50px; height: 22px;"
+                                        name="" id="" required>
+                                        <option value="">1990</option>
+                                        <option value="">1991</option>
+                                        <option value="">1992</option>
+                                    </select>
+                                </td>
+                                <td class="tr2" colspan="2">Giới tính <span class="sao">(*)</span>
+
+                                    <select style="text-align: center; font-size: xx-small; width: 50px; height: 22px;"
+                                        name="" id="" required>
+                                        <option value="">Chọn</option>
+                                        <option value="">Nữ</option>
+                                        <option value="">Nam</option>
+                                        <option value="">Tế nhị</option>
+                                    </select>
+                                </td>
+                                <td style="font-size: x-small; font-weight: bold;">
+                                    Quốc tịch <span class="sao">(*)</span>
+                                    <select style="font-size: xx-small; width: 160px; height: 22px;"
+                                        name="" id="" required>
+                                        <option value="">Chọn</option>
+                                        <option value="">Việt Nam</option>
+                                        <option value="">Mỹ</option>
+                                        <option value="">Nhật</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="tr2">
+                                    Sổ hộ chiếu hoặc giấy thông hành hợp pháp khác <span class="sao">(*)</span>
+                                    <input style="height: 15px; width: 140px;" type="text" name="passport" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="tr2">
+                                    Thông tin đi lại <span class="sao">(*)</span> 
+                                    Tàu bay<input type="checkbox">
+                                    Tàu thuyền<input type="checkbox">
+                                    Ô tô<input type="checkbox">
+                                    Khác(Ghi rõ):
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <textarea name="" id="" cols="90" rows="2"></textarea>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

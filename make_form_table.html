@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B3 - Tạo Form Và Bảng</title>
+    <title>B3 - Tạo Form Và Bảng (1)</title>
     <link rel="stylesheet" href="./style/all_style.css.css">
     <link rel="stylesheet" href="./style/make_form_table.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
@@ -13,8 +13,6 @@
 </head>
 
 <body>
-    <!-- <span class="material-symbols-outlined"> -->
-    </span>
     <header class="header">
         <div>
             <h1>Thực hành tạo form và bảng</h1>
@@ -26,12 +24,17 @@
     <nav>
         <ul class="nav">
             <li class="small_nav"><a href="./index.html">Thực hành 1 + 2</a></li>
-            <li class="small_nav"><a href="#">Thực hành 3</a></li>
+            <li class="small_nav"><a href="#">Thực hành 3[1]</a></li>
+            <li class="small_nav"><a href="./make_form_table2.html">Thực hành 3[2]</a></li>
         </ul>
     </nav>
 
     <!-- Bước 1: Tạo file html đặt tên simpleform.html
                   Bước 2: Thêm thẻ <form> vào. -->
+
+    <p style="text-align: center;">***</p>
+    <h2 style="text-align: center; color: red;">===== BÀI TẬP CHUẨN BỊ =====</h2>
+    <p style="text-align: center;">***</p>
 
     <div>
         <h2 style="text-align: center; color: orangered;">[Thực hành] 1. Tạo form cơ bản</h2>
@@ -104,7 +107,7 @@
                 </form>
                 <p>Get method</p>
                 <!--  -->
-                <form method="get" action="https://www.google.com/search?">
+                <form method="get" action="https://www.google.com/search?" aria-autocomplete="inline">
                     <input type="text" name="q">
                     <button>Search</button>
                 </form>
@@ -120,7 +123,7 @@
     <p style="text-align: center;">***</p>
     <div>
         <h2 style="text-align: center; color: orangered;">[Thực hành] 3. Tạo bảng cơ bản</h2>
-        <div class="form1">
+        <div>
             <div>
                 <table class="table1">
                     <tr class="tr1">
@@ -167,7 +170,7 @@
     <p style="text-align: center;">***</p>
     <div>
         <h2 style="text-align: center; color: orangered;">[Thực hành] 4. Tạo bảng nâng cao</h2>
-        <h2 style="text-align: center;">Thời Khóa Biểu</h2>
+        <h3 style="text-align: center;">Thời Khóa Biểu</h3>
         <div class="form1">
             <table border="1px" class="table2">
                 <tr>
@@ -198,10 +201,67 @@
                     <td class="td2">Văn học</td>
                     <td class="td2">Nhận biết các giá trị sống</td>
                 </tr>
-                
+
             </table>
         </div>
 
+    </div>
+    <p style="text-align: center;">***</p>
+    <h2 style="text-align: center; color: red;">===== BÀI TẬP TRÊN LỚP =====</h2>
+    <p style="text-align: center;">***</p>
+    <div>
+        <h2 style="text-align: center; color: orangered;">[Bài tập] 1. Tạo form đơn giản</h2>
+        <div class="table3">
+            <div>
+                <table style="display: flex; justify-content: center;">
+                    <h2 class="fav">SỞ THÍCH CỦA BẠN</h2>
+                    <div>
+                        <tr>
+                            <td style="color: blue; text-align: right;">Họ và tên:</td>
+                            <td colspan="5"><input class="name" type="text" name="yourname" placeholder="Your Name"
+                                    size="23" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue; text-align: right;">Email:</td>
+                            <td colspan="4"><input type="text" name="email" placeholder="Email" size="16s" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue; text-align: right;">Sở thích:</td>
+                            <td><input class="checkbox" type="checkbox" name="thethao" id="thethao">Thể thao</td>
+                            <td><input class="checkbox" type="checkbox" name="amnhac" id="amnhac">Âm nhạc</td>
+                            <td><input class="checkbox" type="checkbox" name="docsach" id="docsach">Đọc sách</td>
+
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><input class="checkbox" type="checkbox" name="luotweb" id="luotweb">Lướt web</td>
+                            <td><input class="checkbox" type="checkbox" name="choigame" id="choigame">Chơi game</td>
+                            <td><input class="checkbox" type="checkbox" name="dienanh" id="dienanh">Điện ảnh</td>
+
+
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><input class="checkbox" type="checkbox" name="dulich" id="dulich">Du lịch</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><input type="submit" name="submit" value="Gửi thông tin">
+                            </td>
+                            <td><input type="reset" value="Nhập lại"></td>
+                        </tr>
+                    </div>
+                </table>
+            </div>
+        </div>
+        <div>
+            <table>
+                <h2>ĐĂNG KÍ HỌC VIÊN</h2>
+                <div></div>
+            </table>
+        </div>
     </div>
 </body>
 
