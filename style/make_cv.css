@@ -2,11 +2,14 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    /* word-wrap: break-word; */
+    text-overflow: ellipsis;
+    overflow: hidden;
     height: 310px;
     margin: 5px;
     padding: 10px;
     border: yellow solid 2px;
-    background-image: url(./img/bg-color.jpg);
+    background-image: url(../img/bg-color.jpg);
 }
 
 .avatar {
@@ -15,11 +18,15 @@
     align-items: center;
 }
 
+/* .small_infor {
+    font-size: 1.4vw;
+} */
+
 article {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    width: 760px;
+    /* width: 760px; */
 }
 
 .small_cv_body {

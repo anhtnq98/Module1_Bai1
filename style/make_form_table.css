@@ -6,7 +6,7 @@
 .form2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 300px;
+    width: 65%;
     background-color: white;
     padding-left: 40px;
     padding-bottom: 30px;
@@ -61,7 +61,7 @@
 
 .table3 {
     font-family:'Times New Roman', Times, serif;
-    width: 540px;
+    width: 65%;
     border: rgb(206, 239, 250) solid 15px;
     margin-left: 160px;
     background-color: white;
