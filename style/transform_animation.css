@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+#parent {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+#child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    color: #8ebf42;
+    font-family: sans-serif;
+    animation-name: marquee;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marquee {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+.trung {
+    /* position: sticky;
+    top:1500px; */
+}
+
+.gudetama {
+    width: 30%;
+    height: 30%;
+
+    border: orange solid 2px;
+
+}
+
+.gudetama:hover {
+    transition: all;
+    transition-duration: 3s;
+    transform: scale(150%,150%);
+    overflow: hidden;
+
+
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    left: 255px;
+}
+
+
